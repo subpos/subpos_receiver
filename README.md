@@ -5,7 +5,7 @@ Outputs NMEA position data via USB UART.
 
 Note this just does a raw position calc from each scan and doesn't time out nodes or perform averaging (yet).
 
-Tested on Arduino and the Teensy 3.2 and Energia and the Launchpad Tiva C (tm4c123). 
+Tested on Arduino and the Teensy 3.2 and Energia and the Launchpad Tiva C (tm4c123). The sketch uses 127,316 bytes.
 
 For use with the ESP Wi-Fi Scanner Firmware - https://github.com/subpos/esp_wifi_scanner
 
