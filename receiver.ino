@@ -50,12 +50,6 @@ struct sps_data {
   uint8_t       path_loss;   //3  bit
 };
 
-//Don't need standardcplusplus
-//https://forum.pjrc.com/threads/28181-Eigen-library-for-linear-algebra-Teensy-3-1-Help-needed/page2
-//https://github.com/Wayne82/Trilateration/tree/master/source
-//uClibc++ is LGPL, so this port is also. Andy's file is actually CC-BY-SA, however he indicated he'd be releasing it using the 3-clause modified BSD license, so it will be fully compatible with uClibc++.
-
-
 unsigned char incomingByte;
 char temp_array[5];
 unsigned char subpos_array[31];
