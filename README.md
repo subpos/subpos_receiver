@@ -1,4 +1,4 @@
-SubPos Hardware Receiver
+# SubPos Hardware Receiver
 
 Waits for scan result from ESP module and trilaterates a position from this scan.
 Outputs NMEA position data via USB UART.
